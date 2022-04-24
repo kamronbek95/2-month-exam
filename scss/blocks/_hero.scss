@@ -1,0 +1,97 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    &__photo{
+        position: absolute;
+        top: 88px;
+        left: 933px;
+    }
+    &__img{
+        position: absolute;
+        top: -93px;
+        left: 752px;
+    }
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    width: 50%;
+    &__tittle{
+        width: 530px;
+        height: 230px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -0.553846px;
+        color: #36536B;
+    }
+    &__email{
+        margin-top: 21px;
+    }
+    &__desc{
+        width: 225px;
+        height: 18px;
+        text-align: center;
+        margin-left: 27px;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #6C8294;
+        opacity: 0.7;
+        &__link{
+            text-decoration: none;
+            color: #2d3f4f;
+            opacity: 1;
+        }
+    }
+}
+.photo{
+    width: 320px;
+    height: 550px;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    &__email{
+        width: 445px;
+        height: 48px;
+        background: #FBFCFE;
+        border: 1px solid transparent;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+        padding: 16px 27px;
+    }
+    &__btn{
+        position: absolute;
+        right: 30px;
+    }
+}
+.btn2{
+    min-width: 173px;
+    min-height: 48px;
+    background: #BA4270;
+    border: 1px solid transparent;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #FBFCFE;
+    cursor: pointer;
+    &:active{
+        background: #DA6D97;
+    }
+}
+

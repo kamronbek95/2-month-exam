@@ -1,0 +1,220 @@
+@media only screen and (max-width: 780px) {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        &__photo{
+            position: absolute;
+            top: -20px;
+            left: 314px;
+        }
+        &__img{
+            width: 949px;
+            height: 949px;
+            position: absolute;
+            top: -663px;
+            left: -65px;
+            transform: rotate(-45deg);
+        }
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 434px;
+        &__tittle{
+            width: 530px;
+            height: 230px;
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 72px;
+            letter-spacing: -0.553846px;
+            color: #36536B;
+            text-align: center;
+        }
+        &__email{
+            margin-top: 21px;
+        }
+        &__desc{
+            width: 225px;
+            height: 15px;
+            text-align: center;
+            margin-left: 27px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: #6C8294;
+            opacity: 0.7;
+            &__link{
+                text-decoration: none;
+                color: #2d3f4f;
+                opacity: 1;
+            }
+        }
+    }
+    .form{
+        display: flex;
+        position: relative;
+        &__btn{
+            position: absolute;
+            right: -119px;
+        }
+    }
+    .about{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        height: 615px;
+        &__info{
+            margin-top: 0;
+        }
+    }
+    .companies{
+        width: 100%;
+        margin-top: 88px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        &__logo{
+            width: 129px;
+            height: 17px;
+        }
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        &__tittle{
+            width: 456px;
+            text-align: center;
+        }
+        &__desc{
+            width: 456px;
+            text-align: center;
+        }
+        &__link{
+            width: 132px;
+            margin-left: 148px;
+        }
+        
+    }
+    .implement{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        &__photo{
+            display: block;
+            width: 510px;
+            height: 348px;
+        }
+    }
+    .trans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        &__tittle{
+            text-align: center;
+        }
+        &__desc{
+           text-align: center;
+        }
+    }
+
+    .simple__imgs{
+        position: absolute;
+        left: 28px;
+        top: 2367px;
+        
+
+    }
+    .simple__UI{
+        height: 646px;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        &__item{
+            margin-top: 200px;
+        }
+    }
+    .simple{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: -343px;
+        &__tittle{
+            text-align: center;
+        }
+        &__desc{
+           text-align: center;
+        }
+    }
+    
+    .ready__to{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    .ready__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    .ready{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__img{
+            width: 88px;
+            height: 88px;
+        }
+        &__tittle{
+            width: 223px;
+            height: 25px;
+        }
+        &__desc{
+            width: 223px;
+            height: 150px;
+        }
+    
+    }
+    .ready__email{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__form{
+            display: flex;
+            position: relative;
+            &__btn{
+                    position: absolute;
+                    right: 0;
+                }
+        }
+        &__tittle{
+            text-align: center;
+        }
+    }
+    .footer{
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 39px;
+        padding-right: 39px;
+       
+    }
+}

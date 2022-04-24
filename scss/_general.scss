@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+* , *::after, *::before{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background: #EDF3F8;
+}
+
+.visually_hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 165px;
+}
+
+@media screen and (max-width: 780px) {
+    .container{
+        margin: auto;
+        padding: 0 96px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        margin: auto;
+        padding: 0 24px;
+    }
+}
