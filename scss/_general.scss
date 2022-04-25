@@ -13,6 +13,7 @@ body{
     margin: 0;
     padding: 0;
     background: #EDF3F8;
+    overflow-x: hidden;
 }
 
 .visually_hidden{
@@ -36,14 +37,14 @@ body{
 
 @media screen and (max-width: 780px) {
     .container{
-        margin: auto;
+        max-width: 780px;
         padding: 0 96px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .container{
-        margin: auto;
+        max-width: 375px;
         padding: 0 24px;
     }
 }
